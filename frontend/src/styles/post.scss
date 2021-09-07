@@ -1,0 +1,269 @@
+#page-feed {
+  width: 100vw;
+  height: 100vh;
+  //max-width: 60vw;
+  margin: 0 auto;
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.feed-details {
+  display: flex;
+  position: fixed;
+  max-width: 80rem;
+  width: auto;
+  margin-right: 10rem;
+  margin-left: 20rem;
+  height: 100vh;
+  margin-top: 5rem;
+  padding: 3rem;
+
+  header {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    .new-post{
+      width: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      outline: none;
+      text-decoration: none;
+      cursor: pointer;
+      padding: 0.5rem;
+
+      svg {
+        margin-right: 1rem;
+      }
+    }
+
+    h2 {
+      color: #000;
+    }
+  }
+
+  main {
+    display: block;
+    justify-content: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-left: 5rem;
+
+    .card {
+      width: 50rem;
+      max-width: 50rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0.5rem;
+      border: none;
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      p {
+        color: rgb(0, 0, 0);
+      }
+
+      .write {
+        display: flex;
+        margin: 0;
+        color: #2A8BF2;
+        font-size: 0.9rem;
+
+        svg {
+          margin-right: 0.5rem;
+        }
+      }
+
+      .likes {
+        margin-left: 2rem;
+        color: #2A8BF2;
+
+        svg {
+          margin-top: -0.1rem;
+          margin-right: 0.2rem;
+        }
+      }
+
+      .like {
+        width: 6rem;
+        height: 2.3rem;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        color: #2A8BF2;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+
+        background: rgba(42, 139, 242, 0.25);
+        border-radius: 1.5rem;
+
+        svg {
+          margin-right: 0.5rem;
+          margin-bottom: 0.2rem;
+        }
+      }
+
+      .commentaries {
+        margin: 0.4rem 0;
+        border-radius: 0.5rem;
+        background: #ffffff;
+        box-shadow: 0 0 1em rgba(0, 0, 0, 0.103);
+
+        .comment-name {
+          padding: 0 0.5rem;
+          margin: 0;
+          margin-top: 0.5rem;
+          font-size: 14px;
+          color: #2A8BF2;
+        }
+
+        p {
+          padding: 0.5rem;
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+
+      .input-block {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      
+      .input-block label {
+        display: flex;
+        color: #2A8BF2;
+        line-height: 24px;
+        font-size: 15px;
+
+      }
+      
+      .input-block label span {
+        font-size: 14px;
+        color: #a6adb4;
+        margin-left: 0.5rem;
+        line-height: 24px;
+      }
+      
+      .input-block input,
+      .input-block textarea {
+        width: 100%;
+        height: 3rem;
+        background: #F5F8FA;
+        border: 1px solid #7CB8F7;
+        border-radius: 1rem;
+        outline: none;
+        color: #000000;
+      }
+      
+      #comment {
+        height: 7rem;
+        
+      }
+
+      .input-block textarea {
+        resize: vertical;
+        padding: 16px;
+        margin-bottom: 0.5rem;
+        line-height: 28px;
+      }
+    }
+  }
+
+  main::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  main::-webkit-scrollbar-corner  {
+    width: 1rem;
+  }
+
+  main::-webkit-scrollbar-thumb {
+    background-color: #B7BDCB;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1690px) {
+  .feed-details {
+    width: 70rem;
+
+    main {
+      max-width: 50rem;
+
+      .card {
+        max-width: 43rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1545px) {
+  .feed-details {
+    width: 60rem;
+
+    header {
+      margin-left: 5rem;
+    }
+
+    main {
+      max-width: 45rem;
+
+      .card {
+        max-width: 28rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .feed-details {
+    flex-direction: column;
+
+    header {
+      margin-left: 5rem;
+    }
+    main {
+      max-width: 40rem;
+
+      .card {
+        max-width: 39rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .feed-details {
+    margin-left: 35rem;
+
+    main {
+      max-width: 40rem;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .feed-details {
+    margin-left: 40rem;
+
+    main {
+      max-width: 35rem;
+
+      .card {
+        max-width: 34rem;
+      }
+    }
+  }
+}
+
+

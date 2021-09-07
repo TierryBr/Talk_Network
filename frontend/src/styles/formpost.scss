@@ -1,0 +1,201 @@
+#page-feed {
+  width: 100vw;
+  height: 100vh;
+  //max-width: 60vw;
+  margin: 0 auto;
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.feed-details {
+  display: flex;
+  position: fixed;
+  max-width: 80rem;
+  width: auto;
+  margin-right: 10rem;
+  margin-left: 20rem;
+  height: 100vh;
+  margin-top: 5rem;
+  padding: 3rem;
+
+
+  main {
+    display: block;
+    justify-content: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-left: 5rem;
+
+    .card {
+      width: 50rem;
+      max-width: 50rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0.5rem;
+      border: none;
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+
+    .input-block {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .input-block label {
+      display: flex;
+      color: #7CB8F7;
+      line-height: 24px;
+    }
+    
+    .input-block label span {
+      font-size: 14px;
+      color: #a6adb4;
+      margin-left: 0.5rem;
+      line-height: 24px;
+    }
+    
+    .input-block input,
+    .input-block textarea {
+      width: 100%;
+      height: auto;
+      background: #F5F8FA;
+      border: 1px solid #7CB8F7;
+      border-radius: 20px;
+      outline: none;
+      color: #000000;
+    }
+    
+    .input-block input {
+      height: 64px;
+      padding: 0 16px;
+    }
+    
+    .input-block textarea {
+      min-height: 120px;
+      max-height: 240px;
+      resize: vertical;
+      padding: 16px;
+      line-height: 28px;
+    }
+
+    #name {
+      height: 10rem;
+    }
+    
+
+    .comment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 8rem;
+      height: 2.3rem;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+      color: #2A8BF2;
+      font-size: 1rem;
+
+      background: rgba(42, 139, 242, 0.25);
+      border-radius: 1.5rem;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  main::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  main::-webkit-scrollbar-corner  {
+    width: 1rem;
+  }
+
+  main::-webkit-scrollbar-thumb {
+    background-color: #B7BDCB;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1690px) {
+  .feed-details {
+    width: 70rem;
+
+    main {
+      max-width: 50rem;
+
+      .card {
+        max-width: 43rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1545px) {
+  .feed-details {
+    width: 60rem;
+
+    header {
+      margin-left: 5rem;
+    }
+
+    main {
+      max-width: 45rem;
+
+      .card {
+        max-width: 28rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .feed-details {
+    flex-direction: column;
+
+    header {
+      margin-left: 5rem;
+    }
+    main {
+      max-width: 40rem;
+
+      .card {
+        max-width: 39rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1240px) {
+  .feed-details {
+    margin-left: 35rem;
+
+    main {
+      max-width: 40rem;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .feed-details {
+    margin-left: 40rem;
+
+    main {
+      max-width: 35rem;
+
+      .card {
+        max-width: 34rem;
+      }
+    }
+  }
+}
+
+

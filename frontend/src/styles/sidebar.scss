@@ -1,0 +1,53 @@
+#page-navigation {
+  height: 100vh;
+
+  position: fixed;
+  display: flex;
+
+  box-shadow: inset 0 0 1em gold, 0 0 1em rgba(0, 0, 1, 0.123);
+}
+
+#page-navigation aside {
+  width: 20rem;
+  background: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#page-navigation aside header{
+  display: flex;
+  flex-direction: column;
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  .perfil, .feed , .login, .logout {
+    display: flex;
+    justify-content: row;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    color: #707C97;
+    flex-direction: row;
+    text-decoration: none;
+
+    svg {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .login.active {
+    color: #054bec;
+  }
+  .feed.active {
+    color: #054bec;
+  }
+  .logout.active {
+    color: #054bec;
+  }
+}

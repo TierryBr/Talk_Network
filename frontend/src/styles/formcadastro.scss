@@ -1,0 +1,78 @@
+#page-cadastro {
+  width: 100vw;
+  height: 100vh;
+  //max-width: 60vw;
+  margin: 0 auto;
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastro-details {
+  display: flex;
+  position: fixed;
+  max-width: 80rem;
+  width: auto;
+  margin-right: 10rem;
+  margin-left: 20rem;
+  height: 100vh;
+  margin-top: 5rem;
+  padding: 3rem;
+
+  main {
+    display: block;
+    justify-content: column;
+    scroll-behavior: smooth;
+    margin-left: 5rem;
+
+    .card {
+      width: 50rem;
+      max-width: 50rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0.5rem;
+      border: none;
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        input {
+          margin: 0.5rem;
+          padding: 3px;
+          border: 1px solid #7CB8F7;
+          border-radius: 5px;
+          outline: none;
+          color: #000000;
+        }
+
+        .btn-cadastro {
+          width: 8rem;
+          height: 2.3rem;
+          border: none;
+          text-decoration: none;
+          cursor: pointer;
+          color: #2A8BF2;
+          font-size: 1rem;
+          margin-top: 1rem;
+          margin-left: 0.5rem;
+
+          background: rgba(42, 139, 242, 0.25);
+          border-radius: 1.5rem;
+
+          svg {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

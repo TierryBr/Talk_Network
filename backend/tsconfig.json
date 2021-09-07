@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                                
+    "module": "commonjs",                           
+    "lib": ["es6"],                                   
+    "allowJs": true,       // permite importa arquivo JS dentro do TS                      
+    "outDir": "./dist",     // diretorio para geração dos arquivos JS                         
+    "removeComments": true,      // remove comentario no processo de build                
+    "strict": true,                                 
+    "esModuleInterop": true,                        
+    "resolveJsonModule": true,    // permite importar arquivos json no codigo
+    "experimentalDecorators": true,              
+    "emitDecoratorMetadata": true,               
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false        
+  }
+}
