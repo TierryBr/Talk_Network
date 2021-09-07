@@ -36,7 +36,7 @@ _ps: Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help
 
 ## 💻 Aplicação
 
-![Demo](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/demo.mp4)
+![Demo](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/demo.gif)
 ![Login](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/login.png)
 ![Cadastro](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/cadastro.png)
 ![Posts](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/posts.png)
