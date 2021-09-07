@@ -36,7 +36,7 @@ _ps: Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help
 
 ## 💻 Aplicação
 
-![Demo](//imgur.com/a/uXvGH61)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/uXvGH61" data-context="false" ><a href="//imgur.com/a/uXvGH61"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ![Login](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/login.png)
 ![Cadastro](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/cadastro.png)
 ![Posts](https://github.com/TierryBr/Talk_Network/blob/main/frontend/public/readme/posts.png)
